@@ -203,9 +203,8 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                     [InlineKeyboardButton("• MAIN ᴄʜᴀɴɴᴇʟs •", url="https://t.me/ikbryt_official")],
-                [
+                
                     [InlineKeyboardButton("• CHAT ᴄʜᴀɴɴᴇʟs •", url="https://t.me/IKBRYT_SUPPORT_CHAT0")],
-
     [
                     InlineKeyboardButton("• ᴀʙᴏᴜᴛ", callback_data = "about"),
                     InlineKeyboardButton('ʜᴇʟᴘ •', callback_data = "help")
